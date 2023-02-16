@@ -50,7 +50,7 @@ jobs:
           source_dir: 'public'
           container_name: '$web'
           connection_string: ${{ secrets.ConnectionString }}
-          sync: 'true'
+          overwrite: 'true'
 ```
 
 ### Required Variables
